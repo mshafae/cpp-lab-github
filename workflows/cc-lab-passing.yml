@@ -40,7 +40,7 @@ jobs:
     name: A job to estimate if the lab is failing or passing quality
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: Estimate if the lab is passing or failing
         id: header-check
         uses: mshafae/cpp-grade-estimate-docker-action@v2
